@@ -8,4 +8,5 @@ const composeQueryParamUrl = function(baseUrl, queryParams) {
   });
   return `${baseUrl}?${queryParamsArray.join('&')}`;
 };
- export default composeQueryParamUrl;
+
+export default composeQueryParamUrl;
