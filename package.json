@@ -1,0 +1,19 @@
+{
+  "name": "asl-tab-api",
+  "version": "1.0.0",
+  "description": "Get a YouTube channel's video data to use in the ASL Tab browser extension.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missmatsuko/asl-tab-api.git"
+  },
+  "author": "Matsuko Friedland <info@matsuko.ca> (https://matsuko.ca)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/missmatsuko/asl-tab-api/issues"
+  },
+  "homepage": "https://github.com/missmatsuko/asl-tab-api#readme"
+}
