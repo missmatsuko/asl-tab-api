@@ -3,3 +3,6 @@
 
 # environment
 .env
+
+# dist
+dist.zip
