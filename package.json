@@ -1,0 +1,30 @@
+{
+  "name": "asl-tab-api",
+  "version": "1.0.0",
+  "description": "Get a YouTube channel's video data to use in the ASL Tab browser extension.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm local.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "rm -f dist.zip && zip -r dist.zip index.js lambda.js node_modules src --exclude node_modules/aws-sdk --exclude node_modules/aws-sdk/\\*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missmatsuko/asl-tab-api.git"
+  },
+  "author": "Matsuko Friedland <info@matsuko.ca> (https://matsuko.ca)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/missmatsuko/asl-tab-api/issues"
+  },
+  "homepage": "https://github.com/missmatsuko/asl-tab-api#readme",
+  "dependencies": {
+    "esm": "^3.0.84",
+    "iso8601-duration": "^1.1.6",
+    "node-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.355.0",
+    "dotenv": "^6.1.0"
+  }
+}
