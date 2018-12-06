@@ -17,6 +17,7 @@ try {
 
 const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
 const YOUTUBE_PLAYLIST_ID = process.env.YOUTUBE_PLAYLIST_ID;
+const CACHE_MAX_AGE = 2 * 7 * 24 * 60 * 60; // Duration to cache data file in seconds; 2 weeks
 
 // Fetch playlist items data from YouTube
 async function getPlaylistItemsData(pageToken = undefined) {
@@ -126,6 +127,7 @@ export default async function uploadToS3() {
     ACL: 'public-read',
     Body: JSON.stringify(result),
     Bucket: process.env.AWS_BUCKET_NAME,
+    CacheControl: `public, max-age=${ CACHE_MAX_AGE }`,
     ContentType: 'application/json',
     Key: 'data.json',
   }
