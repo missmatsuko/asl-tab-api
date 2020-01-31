@@ -1,6 +1,6 @@
 {
   "name": "asl-tab-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get a YouTube channel's video data to use in the ASL Tab browser extension.",
   "main": "index.js",
   "scripts": {
