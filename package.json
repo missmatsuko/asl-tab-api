@@ -19,12 +19,12 @@
   },
   "homepage": "https://github.com/missmatsuko/asl-tab-api#readme",
   "dependencies": {
-    "esm": "^3.0.84",
-    "iso8601-duration": "^1.1.6",
-    "node-fetch": "^2.2.1"
+    "esm": "^3.2",
+    "iso8601-duration": "^1.2",
+    "node-fetch": "^2.6"
   },
   "devDependencies": {
-    "aws-sdk": "^2.355.0",
-    "dotenv": "^6.1.0"
+    "aws-sdk": "^2.610",
+    "dotenv": "^8.2"
   }
 }
