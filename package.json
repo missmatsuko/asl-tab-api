@@ -24,7 +24,7 @@
     "node-fetch": "^2.6"
   },
   "devDependencies": {
-    "aws-sdk": "^2.610",
+    "aws-sdk": "^2.814",
     "dotenv": "^8.2"
   }
 }
